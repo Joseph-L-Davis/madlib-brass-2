@@ -23,11 +23,24 @@ const entry5 = document.getElementById('entry-5')
 const entry6 = document.getElementById('entry-6')
 const entry7 = document.getElementById('entry-7')
 const entry8 = document.getElementById('entry-8')
+const entry9 = document.getElementById('entry-9')
 
 const spookyButton = document.getElementById('spooky-button')
+
+
 
 //Event Listener
 
 spookyButton.addEventListener('click', () => {
-    console.log('hihihihihi')
+    entry1.textContent = input1.value;
+    entry2.textContent = input2.value;
+    entry3.textContent = input3.value;
+    entry4.textContent = input4.value;
+    entry5.textContent = input5.value;
+    entry6.textContent = input6.value;
+    entry7.textContent = input7.value;
+    entry8.textContent = input5.value;
+    entry9.textContent = input8.value;
+    
+    
 })
