@@ -27,6 +27,8 @@ const entry9 = document.getElementById('entry-9')
 
 const spookyButton = document.getElementById('spooky-button')
 
+const lyrics = document.getElementById('lyrics');
+
 
 
 //Event Listener
@@ -41,6 +43,7 @@ spookyButton.addEventListener('click', () => {
     entry7.textContent = input7.value;
     entry8.textContent = input5.value;
     entry9.textContent = input8.value;
+    lyrics.classList.toggle('lyrics');
     
     
 })
